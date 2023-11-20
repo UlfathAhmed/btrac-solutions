@@ -17,9 +17,9 @@ export default {
       'footerbglight':" url('src/assets/images/footerlbg.jpg') ",
       'blogpagelight':" url('src/assets/images/blogbgw.png') ",
       'blogpagedark':" url('src/assets/images/blogbgb.png') ",
-      'btraclogodark':" url('src/assets/images/btraclogobb.png') ",
-      'btraclogodark':" url('src/assets/images/btraclogowb.png') ",
-
+      'awardbgdark':" url('src/assets/images/awardprojectdbg.png') ",
+      'awardbgdlight':" url('src/assets/images/awardprojectdlbg.png') ",
+      
       
     }
   },

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import logowb from '../assets/images/btraclogowb.png'
 import logobb from '../assets/images/btraclogobb.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -9,6 +9,13 @@ import { useState } from 'react';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
+    let theme = localStorage.getItem('theme');
+    const [themeMode, setThemeMode] = useState();
+    useEffect (() => {
+        // console.log('theme',theme);
+        setThemeMode(theme)
+    },[theme]) 
+
     return (
     <nav className="fixed z-50">
         <div className="w-screen z-50 px-10 md:px-12 lg:px-48 py-5 relative flex justify-between items-center">
@@ -46,6 +53,7 @@ const Navbar = () => {
             </div>
             </div>
         <div>
+            {themeMode == 'light' }
             <a href="#">
             <img src={logowb} alt="logo" width={120} />
             

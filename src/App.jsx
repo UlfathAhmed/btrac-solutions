@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Blog from './pages/BlogPage/Blog'
 import InsideBtsl from './pages/InsideBtslpage/InsideBtsl'
 import Awards from './pages/AwardPage/Awards'
+import Product from './pages/ProductPage/Product'
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <About/>
       <Service/>
       <Awards/>
+      <Product/>
       <Industries/>
       <Blog/>
       <InsideBtsl/>
