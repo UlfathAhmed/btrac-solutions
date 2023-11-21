@@ -6,7 +6,7 @@ const BlogCard = () => {
     
         <div className='relative' >
             <div className=' gap-5'>
-                {BlogData.map((item) => (
+                {BlogData.map((item, index) => (
                     
                     <div className=" flex gap-5 py-10 " >
                         <div className='basis-1/2'>

@@ -20,7 +20,6 @@ export default {
       'awardbgdark':" url('src/assets/images/awardprojectdbg.png') ",
       'awardbgdlight':" url('src/assets/images/awardprojectdlbg.png') ",
       
-      
     }
   },
   fontFamily: {

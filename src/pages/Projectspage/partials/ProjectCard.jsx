@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductCard = ({ image, altDesc, subHeading, description  }) => {
+const ProjectCard = ({ image, altDesc, subHeading, description  }) => {
   return (
     
       <div className="group">
@@ -11,4 +11,4 @@ const ProductCard = ({ image, altDesc, subHeading, description  }) => {
   );
 };
 
-export default ProductCard;
+export default ProjectCard;

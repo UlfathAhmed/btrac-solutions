@@ -3,9 +3,7 @@ import product2 from '../assets/images/p2.png';
 import product3 from '../assets/images/p3.png';
 
 
-
-
-export const ProductData = [
+export const ProjectsData = [
   {
     id: 1,
     image: product1,
@@ -41,4 +39,4 @@ export const ProductData = [
  
 ];
 
-export default ProductData;
+export default ProjectsData;

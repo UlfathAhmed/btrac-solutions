@@ -5,11 +5,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import React, { useRef } from 'react';
-import ProductCard from './Partials/ProductCard';
-import ProductData from '../../DummyData/ProductData';
+import ProjectsData from '../../DummyData/ProjectsData';
+import ProjectCard from './partials/ProjectCard';
 
 
-const Product = () => {
+const Project = () => {
     const swiperRef = useRef() 
     return (
       <section className="" id='Products'>
@@ -34,7 +34,7 @@ const Product = () => {
               spaceBetween: 20,
             },
             '1024': {
-              slidesPerView: 3.2,
+              slidesPerView: 3.3,
               spaceBetween: 20,
             },
           
@@ -47,9 +47,9 @@ const Product = () => {
           onInit={(swiper) => (swiperRef.current = swiper)}
           className="mySwiper"
           >
-          {ProductData.map((item) => (
+          {ProjectsData.map((item) => (
             <SwiperSlide className='justify-between '>
-            <ProductCard
+            <ProjectCard
               key={item.id}
               image={item.image}
               altDesc={item.heading}
@@ -78,4 +78,5 @@ const Product = () => {
     );
   };
   
-  export default Product;
+  export default Project;
+  
