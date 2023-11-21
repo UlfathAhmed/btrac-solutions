@@ -5,21 +5,19 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import React, { useRef } from 'react';
-import ProjectsData from '../../DummyData/ProjectsData';
-import ProjectCard from './partials/ProjectCard';
+import ProductData from '../../DummyData/ProductData';
+import ProductCard from './partials/ProductCard';
 
 
-const Project = () => {
+const Product = () => {
     const swiperRef = useRef() 
     return (
-      <section className="bg-awardbgdlight dark:bg-awardbgdark" id='Products'>
+      <section className="bg-productbg" id='Project'>
+        <div class="w-full h-full justify-center items-center dark:bg-black/90 bg-white/95">
         <div className='px-48 py-14 flex'>
             <h1 className='basis-1/2 font-blackerdisplay font-normal text-6xl dark:text-white'>
-            Our Project
+            Our Produts
             </h1>
-            <p className='basis-2/3 font-prata font-normal text-xl dark:text-white text-right'>
-            Cinzel is the all-in-one WordPress theme to create your amazing dream website. Easy to use, highly customizable and modern, with 29+ detailed prebuilt websites.
-            </p>
         </div>
         
         <div className=" lg:pl-52 px-5 relative py-14 ">
@@ -47,9 +45,9 @@ const Project = () => {
           onInit={(swiper) => (swiperRef.current = swiper)}
           className="mySwiper"
           >
-          {ProjectsData.map((item) => (
+          {ProductData.map((item) => (
             <SwiperSlide className='justify-between '>
-            <ProjectCard
+            <ProductCard
               key={item.id}
               image={item.image}
               altDesc={item.heading}
@@ -74,9 +72,10 @@ const Project = () => {
           </div> */}
           
         </div>
+        </div>
       </section>
     );
   };
   
-  export default Project;
+  export default Product;
   

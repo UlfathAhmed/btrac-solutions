@@ -19,6 +19,7 @@ export default {
       'blogpagedark':" url('src/assets/images/blogbgb.png') ",
       'awardbgdark':" url('src/assets/images/awardprojectdbg.png') ",
       'awardbgdlight':" url('src/assets/images/awardprojectdlbg.png') ",
+      'productbg':" url('src/assets/images/productbg.png') ",
       
     }
   },

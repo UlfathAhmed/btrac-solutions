@@ -2,6 +2,7 @@ import React from 'react'
 import BlogData from '../../../DummyData/BlogData';
 
 const BlogCard = () => {
+    
   return (
     
         <div className='relative' >
@@ -23,8 +24,8 @@ const BlogCard = () => {
                             <button>
                                 <p className='text-[#225FA9] text-2xl font-prata font-normal hover:text-blue-500'>{item.readmore}</p>
                             </button>
+                            
                         </div>
-                        
                     </div>
                 ))}
 

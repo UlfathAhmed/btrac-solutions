@@ -9,6 +9,7 @@ import Blog from './pages/BlogPage/Blog'
 import InsideBtsl from './pages/InsideBtslpage/InsideBtsl'
 import Awards from './pages/AwardPage/Awards'
 import Project from './pages/Projectspage/project'
+import Product from './pages/Productpage/Product'
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <About/>
       <Service/>
       <Awards/>
+      <Product/>
       <Project/>
       <Industries/>
       <Blog/>
