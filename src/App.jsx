@@ -10,6 +10,7 @@ import InsideBtsl from './pages/InsideBtslpage/InsideBtsl'
 import Awards from './pages/AwardPage/Awards'
 import Project from './pages/Projectspage/project'
 import Product from './pages/Productpage/Product'
+import BlogsAndVlogs from './pages/BlogsAndVlogsPage/BlogsAndVlogs'
 
 
 
@@ -28,6 +29,7 @@ function App() {
       <Product/>
       <Project/>
       <Industries/>
+      <BlogsAndVlogs/>
       <Blog/>
       <InsideBtsl/>
       <Footer/>

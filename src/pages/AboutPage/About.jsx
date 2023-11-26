@@ -6,13 +6,13 @@ const About = () => {
   return (
     <section className=' dark:bg-[#181818] bg-[#F4F4F4] pt-10'>
       <div className='px-48'>
-        <div className=' flex rounded-xl bg-[#F9F9F9] dark:bg-[#090909]'>
+        <div className=' flex justify-between rounded-xl bg-[#F9F9F9] dark:bg-[#090909]'>
           <div className='py-16'>
               <h1 className=' font-blackerdisplay font-normal text-6xl px-16 dark:text-white '> 
               Our <br /> Achievements
               </h1>
           </div>
-          <div className='flex dark:text-white'>
+          <div className='flex dark:text-white '>
               
               <div>
               <AchivementCount/>

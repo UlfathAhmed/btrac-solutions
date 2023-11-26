@@ -17,7 +17,7 @@ const Navbar = () => {
     },[theme]) 
 
     return (
-    <nav className="fixed z-50">
+    <nav className="fixed z-50 backdrop-blur-sm">
         <div className="w-screen z-50 px-10 md:px-12 lg:px-48 py-5 relative flex justify-between items-center">
         <div
             className={`absolute md:hidden top-full left-0 py-1 px-5 w-screen ${
