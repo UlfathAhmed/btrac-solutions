@@ -12,7 +12,7 @@ import ProjectCard from './partials/ProjectCard';
 const Project = () => {
     const swiperRef = useRef() 
     return (
-      <section className="bg-awardbgdlight dark:bg-awardbgdark" id='Products'>
+      <section className="bg-lightbg dark:bg-blackbg dark:bg-repeat" id='Products'>
         <div className='px-48 py-14 flex'>
             <h1 className='basis-1/2 font-blackerdisplay font-normal text-6xl dark:text-white'>
             Our Project

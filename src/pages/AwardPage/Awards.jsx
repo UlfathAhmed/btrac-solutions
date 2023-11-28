@@ -3,8 +3,8 @@ import AwardCard from './Partials/AwardCard'
 
 const Awards = () => {
   return (
-    <div className='px-48 dark:bg-awardbgdark bg-awardbgdlight py-20 '>
-      <h1 className='dark:text-white text-7xl font-blackerdisplay text-'>
+    <div className='px-48 dark:bg-blackbg bg-lightbg py-20 '>
+      <h1 className='dark:text-white text-7xl font-blackerdisplay'>
         Our Awards
       </h1>
       <div>

@@ -17,8 +17,8 @@ export default {
       'footerbglight':" url('src/assets/images/footerlbg.jpg') ",
       'blogpagelight':" url('src/assets/images/blogbgw.png') ",
       'blogpagedark':" url('src/assets/images/blogbgb.png') ",
-      'awardbgdark':" url('src/assets/images/awardprojectdbg.png') ",
-      'awardbgdlight':" url('src/assets/images/awardprojectdlbg.png') ",
+      'blackbg':" url('src/assets/images/awardprojectdbg.png') ",
+      'lightbg':" url('src/assets/images/awardprojectdlbg.jpg') ",
       'productbg':" url('src/assets/images/productbg.png') ",
       
     }

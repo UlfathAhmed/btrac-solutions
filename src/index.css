@@ -764,9 +764,6 @@ video {
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
 }
-.bg-awardbgdlight {
-  background-image:  url('src/assets/images/awardprojectdlbg.png') ;
-}
 .bg-blogpagelight {
   background-image:  url('src/assets/images/blogbgw.png') ;
 }
@@ -781,6 +778,9 @@ video {
 }
 .bg-whitehb {
   background-image:  url('src/assets/images/lightbg.png') ;
+}
+.bg-lightbg {
+  background-image:  url('src/assets/images/awardprojectdlbg.jpg') ;
 }
 .bg-cover {
   background-size: cover;
@@ -1215,7 +1215,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
-  :is(.dark .dark\:bg-awardbgdark) {
+  :is(.dark .dark\:bg-blackbg) {
   background-image:  url('src/assets/images/awardprojectdbg.png') ;
 }
   :is(.dark .dark\:bg-blogpagedark) {
@@ -1229,6 +1229,9 @@ video {
 }
   :is(.dark .dark\:bg-servicebgdark) {
   background-image: url('src/assets/images/servicebgdark.png');
+}
+  :is(.dark .dark\:bg-repeat) {
+  background-repeat: repeat;
 }
   :is(.dark .dark\:text-\[\#EDEDED\]) {
   --tw-text-opacity: 1;

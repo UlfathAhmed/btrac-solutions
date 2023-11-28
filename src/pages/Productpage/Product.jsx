@@ -45,7 +45,8 @@ const Product = () => {
           onInit={(swiper) => (swiperRef.current = swiper)}
           className="mySwiper"
           >
-          {ProductData.map((item) => (
+          {ProductData.map((item, index) => (
+            // if(index % 2 == 1)
             <SwiperSlide className='justify-between '>
             <ProductCard
               key={item.id}

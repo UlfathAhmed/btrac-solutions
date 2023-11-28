@@ -72,28 +72,28 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex">
             <ul className='flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-4 md:ml-auto'>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#about">Home</a>
                 </li>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#about">About</a>
                 </li>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#services">Services</a>
                 </li>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#portfolio">Portfolio</a> 
                 </li>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#products">Products</a>
                 </li>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#client">Client</a>
                 </li >
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#blogs">Blogs</a>
                 </li>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#contact">Contact</a>
                 </li>
             </ul>

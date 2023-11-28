@@ -3,7 +3,6 @@ import IndustriesData from '../../../DummyData/IndustriesData'
 
 const IndustriesCard = () => {
   const [theme, setTheme] = useState (
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "system"
   );
   
   
@@ -27,6 +26,7 @@ const IndustriesCard = () => {
                   
                     <h1 className='text-base font-prata dark:text-[#EDEDED] text-center'>{item.title}</h1>
                 </div>
+                
             ))}
 
         </div>
