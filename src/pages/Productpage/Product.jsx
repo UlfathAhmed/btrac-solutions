@@ -47,7 +47,7 @@ const Product = () => {
           >
           {ProductData.map((item, index) => (
             // if(index % 2 == 1)
-            <SwiperSlide className='justify-between '>
+            <SwiperSlide className={`justify-between ${index % 2 === 0 ? "mt-0" : "mt-32"} `}>
             <ProductCard
               key={item.id}
               image={item.image}
