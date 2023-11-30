@@ -14,13 +14,13 @@ const Product = () => {
     return (
       <section className="bg-productbg" id='Project'>
         <div class="w-full h-full justify-center items-center dark:bg-black/90 bg-white/95">
-        <div className='px-48 py-14 flex'>
-            <h1 className='basis-1/2 font-blackerdisplay font-normal text-6xl dark:text-white'>
+        <div className='lg:px-48 px-5 py-14 flex'>
+            <h1 className='font-blackerdisplay font-normal lg:text-6xl text-4xl dark:text-white'>
             Our Produts
             </h1>
         </div>
         
-        <div className=" lg:pl-52 px-5 relative py-14 ">
+        <div className=" lg:pl-48 px-5 relative lg:py-14 py-5 ">
           <Swiper
           breakpoints={{
             '640': {

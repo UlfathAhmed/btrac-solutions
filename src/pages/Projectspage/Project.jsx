@@ -13,11 +13,11 @@ const Project = () => {
     const swiperRef = useRef() 
     return (
       <section className="bg-lightbg dark:bg-blackbg dark:bg-repeat" id='Products'>
-        <div className='px-48 py-14 flex'>
-            <h1 className='basis-1/2 font-blackerdisplay font-normal text-6xl dark:text-white'>
+        <div className='lg:px-48 px-5 py-14 flex flex-col lg:flex-row '>
+            <h1 className='basis-1/2 font-blackerdisplay font-normal lg:text-6xl text-4xl dark:text-white lg:pb-0 pb-5'>
             Our Project
             </h1>
-            <p className='basis-2/3 font-prata font-normal text-xl dark:text-white text-right'>
+            <p className='basis-2/3 font-prata font-normal text-xl dark:text-white lg:text-right'>
             Cinzel is the all-in-one WordPress theme to create your amazing dream website. Easy to use, highly customizable and modern, with 29+ detailed prebuilt websites.
             </p>
         </div>

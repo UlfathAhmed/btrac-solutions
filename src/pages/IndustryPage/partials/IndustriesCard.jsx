@@ -8,7 +8,7 @@ const IndustriesCard = () => {
   
   return (
     <div className='container mx-auto relative'>
-        <div className='grid lg:grid-cols-4'>
+        <div className='grid lg:grid-cols-4 grid-cols-2'>
             {IndustriesData.map((item) => (
                 
                 <div className="p-5" >
@@ -24,7 +24,7 @@ const IndustriesCard = () => {
                       />
                     </div>
                   
-                    <h1 className='text-base font-prata dark:text-[#EDEDED] text-center'>{item.title}</h1>
+                    <h1 className='lg:text-base text-xs  font-prata dark:text-[#EDEDED] text-center'>{item.title}</h1>
                 </div>
                 
             ))}

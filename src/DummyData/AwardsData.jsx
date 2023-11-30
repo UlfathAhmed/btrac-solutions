@@ -11,21 +11,21 @@ export const AwardsData =[
         Awardnum: '02',
         Award: 'Award',
         Awardname: 'National Hackathon',
-        Awardyear: '2016'
+        Awardyear: '2017'
     },
     {
         id : 3,
         Awardnum: '03',
         Award: 'Award',
         Awardname: 'National Hackathon',
-        Awardyear: '2016'
+        Awardyear: '2018'
     },
     {
         id : 4,
         Awardnum: '04',
         Award: 'Award',
         Awardname: 'National Hackathon',
-        Awardyear: '2016'
+        Awardyear: '2019'
     },
     
 
