@@ -12,7 +12,7 @@ import 'swiper/css/scrollbar';
 const Awards = () => {
   return (
     <div className='lg:px-48 px-5 dark:bg-blackbg bg-lightbg py-20 '>
-      <h1 className='dark:text-white lg:text-7xl text-5xl font-blackerdisplay'>
+      <h1 className='dark:text-white lg:text-6xl text-5xl font-blackerdisplay'>
         Our Awards
       </h1>
       <div>
