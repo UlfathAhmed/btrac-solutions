@@ -29,6 +29,13 @@ export const ServiceData =[
         image: arrow,
        
     },
+    {
+        id: 5,
+        title: "New Service",
+        description: "Experienced in software development and design concepts that provide complete solution for mobile, desktop and web development.",
+        image: arrow,
+       
+    },
     
 
 ];
