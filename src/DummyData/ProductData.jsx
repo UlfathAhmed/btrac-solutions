@@ -32,12 +32,29 @@ export const ProductData = [
   },
   {
     id: 4,
+    image: product4,
+    heading: "CLOUD SERVICES",
+    subHeading: "Elevating Your Business to New Heights with Cloud Solutions",
+    description:
+      "Our secure and scalable cloud solutions help our clients migrate their IT infrastructure to the cloud to help businesses to improve flexibility, reduce costs, and enhance scalability. We also offer ongoing cloud management and optimization services to ensure that our clients get the most out of their cloud-based systems.",
+  },
+  {
+    id: 5,
     image: product1,
     heading: "CLOUD SERVICES",
     subHeading: "Elevating Your Business to New Heights with Cloud Solutions",
     description:
       "Our secure and scalable cloud solutions help our clients migrate their IT infrastructure to the cloud to help businesses to improve flexibility, reduce costs, and enhance scalability. We also offer ongoing cloud management and optimization services to ensure that our clients get the most out of their cloud-based systems.",
   },
+  {
+    id: 6,
+    image: product2,
+    heading: "CLOUD SERVICES",
+    subHeading: "Elevating Your Business to New Heights with Cloud Solutions",
+    description:
+      "Our secure and scalable cloud solutions help our clients migrate their IT infrastructure to the cloud to help businesses to improve flexibility, reduce costs, and enhance scalability. We also offer ongoing cloud management and optimization services to ensure that our clients get the most out of their cloud-based systems.",
+  },
+ 
  
 ];
 

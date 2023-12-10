@@ -16,7 +16,7 @@ const BlogCard = () => {
                         <div className='basis-1/2'>
                             <p className='text-[#AAA] text-xl font-prata font-normal'>{item.date}</p>
                             <h1 className='text-[#000] dark:text-[#fff] text-7xl font-blackertext font-medium py-2'>{item.headline}</h1>
-                            <div className='flex gap-5 iem '>
+                            <div className={`flex gap-5 ${index % 2 === 0 ? "justify-end" : "justify-start"}`}>
                                 <img src={item.authorimage} alt="Admin Image" className='rounded-full w-20' />
                                 <p className='py-7 dark:text-[#fff] text-xl font-prata font-normal'>{item.authorname}</p>
                             </div>
