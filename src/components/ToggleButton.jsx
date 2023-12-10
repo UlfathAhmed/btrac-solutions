@@ -17,10 +17,10 @@ const ToggleButton = () => {
       icon:"moon",
       text:"dark"
     },
-    {
-      icon:"desktop-outline",
-      text:"system"
-    }
+    // {
+    //   icon:"desktop-outline",
+    //   text:"system"
+    // }
   ];
   function onWindowMatch(){
      if (localStorage.theme === 'dark' || 

@@ -5,18 +5,18 @@ const BlogCard = () => {
     
   return (
     
-        <div className='relative' >
+        <div className='relative'>
             <div className=' gap-5'>
                 {BlogData.map((item, index) => (
                     
-                    <div className={`flex gap-5 py-10 ${index % 2 === 0 ? "text-right" : "text-left"}`}>
+                    <div className={`flex gap-5 py-10 ${index % 2 === 0 ? "text-right " : "text-left flex-row-reverse"}`}>
                         <div className='basis-1/2'>
                             <img src={item.image} alt="BlogPicture" className='w-full drop-shadow-2xl' />
                         </div>
-                        <div className={`basis-1/2 ${index % 2 === 0 ? "items-right" : "items-left"}`}>
+                        <div className='basis-1/2'>
                             <p className='text-[#AAA] text-xl font-prata font-normal'>{item.date}</p>
                             <h1 className='text-[#000] dark:text-[#fff] text-7xl font-blackertext font-medium py-2'>{item.headline}</h1>
-                            <div className='flex justify-end gap-5'>
+                            <div className='flex gap-5 iem '>
                                 <img src={item.authorimage} alt="Admin Image" className='rounded-full w-20' />
                                 <p className='py-7 dark:text-[#fff] text-xl font-prata font-normal'>{item.authorname}</p>
                             </div>
