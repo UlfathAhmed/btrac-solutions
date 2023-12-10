@@ -50,9 +50,8 @@ const Product = () => {
             <ProductCard
               key={item.id}
               image={item.image}
-              altDesc={item.heading}
-              heading={item.heading}
-              subHeading={item.subHeading}
+              Projecttitle={item.Projecttitle}
+              ProjectButton={item.ProjectButton}
               description={item.description}
             />
             </SwiperSlide>

@@ -527,6 +527,9 @@ video {
 .relative {
   position: relative;
 }
+.bottom-0 {
+  bottom: 0px;
+}
 .bottom-5 {
   bottom: 1.25rem;
 }
@@ -539,11 +542,17 @@ video {
 .left-32 {
   left: 8rem;
 }
+.right-0 {
+  right: 0px;
+}
 .right-1\/2 {
   right: 50%;
 }
 .right-10 {
   right: 2.5rem;
+}
+.top-0 {
+  top: 0px;
 }
 .top-1\/2 {
   top: 50%;
@@ -684,6 +693,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -769,12 +781,12 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
-.bg-white\/95 {
-  background-color: rgb(255 255 255 / 0.95);
-}
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+.bg-white\/95 {
+  background-color: rgb(255 255 255 / 0.95);
 }
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
@@ -784,6 +796,9 @@ video {
 }
 .bg-footerbglight {
   background-image:  url('src/assets/images/footerlbg.jpg') ;
+}
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 .bg-lightbg {
   background-image:  url('src/assets/images/awardprojectdlbg.jpg') ;
@@ -796,6 +811,22 @@ video {
 }
 .bg-whitehb {
   background-image:  url('src/assets/images/lightbg.png') ;
+}
+.from-indigo-500 {
+  --tw-gradient-from: #6366f1 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(99 102 241 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.via-white {
+  --tw-gradient-to: rgb(255 255 255 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.via-purple-50 {
+  --tw-gradient-to: rgb(250 245 255 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #faf5ff var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.to-pink-500 {
+  --tw-gradient-to: #ec4899 var(--tw-gradient-to-position);
 }
 .bg-cover {
   background-size: cover;
@@ -1071,6 +1102,13 @@ video {
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
           backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
 }
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1165,6 +1203,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(34 95 169 / var(--tw-bg-opacity));
 }
+  .hover\:bg-blue-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
+}
   .hover\:text-\[\#225FA9\]:hover {
   --tw-text-opacity: 1;
   color: rgb(34 95 169 / var(--tw-text-opacity));
@@ -1172,6 +1214,12 @@ video {
   .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+  .hover\:opacity-70:hover {
+  opacity: 0.7;
+}
+  .hover\:opacity-25:hover {
+  opacity: 0.25;
 }
   .group:hover .group-hover\:mb-12 {
   margin-bottom: 3rem;
@@ -1228,21 +1276,9 @@ video {
   :is(.dark .dark\:bg-black\/90) {
   background-color: rgb(0 0 0 / 0.9);
 }
-  :is(.dark .dark\:bg-slate-900) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
-}
-  :is(.dark .dark\:bg-slate-600) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
   :is(.dark .dark\:bg-slate-700) {
   --tw-bg-opacity: 1;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-  :is(.dark .dark\:bg-slate-800) {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
   :is(.dark .dark\:bg-blackbg) {
   background-image:  url('src/assets/images/awardprojectdbg.png') ;
