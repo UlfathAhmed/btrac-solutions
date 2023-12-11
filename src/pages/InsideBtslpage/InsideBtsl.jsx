@@ -10,8 +10,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
-import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
+import { FreeMode, Pagination, Autoplay, Navigation } from 'swiper/modules';
 
 const InsideBtsl = () => {
   return (
@@ -45,7 +46,8 @@ const InsideBtsl = () => {
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination, Autoplay]}
+        navigation={true}
+        modules={[FreeMode, Pagination, Autoplay, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide><img src={img1}/></SwiperSlide>

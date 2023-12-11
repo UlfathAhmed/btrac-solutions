@@ -7,8 +7,8 @@ const About = () => {
     <section className=' dark:bg-[#181818] bg-[#F4F4F4] pt-10'>
       <div className='lg:px-48 px-5'>
         <div className=' flex flex-col lg:flex-row justify-between rounded-xl bg-[#F9F9F9] dark:bg-[#090909]'>
-          <div className='py-16 flex-1'>
-              <h1 className=' font-blackerdisplay font-normal lg:text-7xl text-5xl lg:px-16 px-5 dark:text-white '> 
+          <div className='py-20 flex-1'>
+              <h1 className=' font-blackerdisplay font-normal lg:text-6xl text-5xl lg:px-11 px-5 dark:text-white '> 
               Our <br /> Achievements
               </h1>
           </div>

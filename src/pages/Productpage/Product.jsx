@@ -1,9 +1,11 @@
-import { Navigation, Autoplay } from 'swiper/modules';
+import { Navigation, Autoplay} from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
 import React, { useRef } from 'react';
 import ProductData from '../../DummyData/ProductData';
 import ProductCard from './partials/ProductCard';
@@ -41,6 +43,10 @@ const Product = () => {
             delay: 3000,
             disableOnInteraction: false,
           }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
           modules={[Navigation, Autoplay]} 
           onInit={(swiper) => (swiperRef.current = swiper)}
           className="mySwiper"
