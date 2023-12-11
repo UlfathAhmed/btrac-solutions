@@ -2,7 +2,6 @@ import React from 'react'
 import BlogData from '../../../DummyData/BlogData';
 
 const BlogCard = () => {
-    
   return (
     
         <div className='relative'>
@@ -20,9 +19,9 @@ const BlogCard = () => {
                                 <img src={item.authorimage} alt="Admin Image" className='rounded-full w-10 h-10' />
                                 <p className='py-2 dark:text-[#fff] text-xl font-prata font-normal'>{item.authorname}</p>
                             </div>
-                            <p className='dark:text-[#fff] font-prata text-lg font-normal py-5'>{item.description}</p>
+                            <p className='dark:text-[#fff] font-prata text-lg font-normal py-3'>{item.description}</p>
                             <button>
-                                <p className='text-[#225FA9] text-2xl font-prata font-normal hover:text-blue-500'>{item.readmore}</p>
+                                <p className='text-[#225FA9] text-xl font-prata font-normal hover:text-blue-500'>{item.readmore}</p>
                             </button>
                             
                         </div>
