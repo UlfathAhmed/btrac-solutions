@@ -518,6 +518,9 @@ video {
     max-width: 1536px;
   }
 }
+.invisible {
+  visibility: hidden;
+}
 .fixed {
   position: fixed;
 }
@@ -526,6 +529,9 @@ video {
 }
 .relative {
   position: relative;
+}
+.-bottom-10 {
+  bottom: -2.5rem;
 }
 .bottom-5 {
   bottom: 1.25rem;
@@ -687,6 +693,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .rounded-3xl {
   border-radius: 1.5rem;
 }
@@ -747,6 +756,9 @@ video {
 .bg-\[\#225FA9\] {
   --tw-bg-opacity: 1;
   background-color: rgb(34 95 169 / var(--tw-bg-opacity));
+}
+.bg-\[\#225FA9\]\/50 {
+  background-color: rgb(34 95 169 / 0.5);
 }
 .bg-\[\#ECECEC\] {
   --tw-bg-opacity: 1;
@@ -889,10 +901,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -1180,8 +1188,11 @@ video {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
 }
-  .hover\:opacity-25:hover {
-  opacity: 0.25;
+  .group:hover .group-hover\:visible {
+  visibility: visible;
+}
+  .group:hover .group-hover\:bottom-0 {
+  bottom: 0px;
 }
   .group:hover .group-hover\:mb-12 {
   margin-bottom: 3rem;
@@ -1210,6 +1221,9 @@ video {
   .group:hover .group-hover\:text-\[\#225FA9\] {
   --tw-text-opacity: 1;
   color: rgb(34 95 169 / var(--tw-text-opacity));
+}
+  .group:hover .group-hover\:opacity-100 {
+  opacity: 1;
 }
   :is(.dark .dark\:border-\[\#414141\]) {
   --tw-border-opacity: 1;
@@ -1325,6 +1339,10 @@ video {
     top: 50%;
   }
 
+  .lg\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1374,6 +1392,11 @@ video {
   .lg\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .lg\:pb-0 {
