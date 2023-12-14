@@ -17,7 +17,7 @@ const Product = () => {
       <section className="bg-productbg h-full" id='Project'>
         <div class="justify-center items-center dark:bg-black/90 bg-white/95">
         <div className='lg:px-48 px-5 py-14 flex'>
-            <h1 className='font-blackerdisplay font-normal lg:text-6xl text-4xl dark:text-white'>
+            <h1 className='font-blackerdisplay font-normal lg:text-6xl text-5xl dark:text-white'>
             Our Produts
             </h1>
         </div>

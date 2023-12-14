@@ -6,8 +6,8 @@ const BlogsAndVlogsCard = () => {
     <div className='container realtive ' >
      <div className='grid lg:grid-rows-3 '>
         {BlogsAndVlogsData.map((item, index) => (       
-            <div className={` ${index === 0 && 'border-t'} border-b group border-[#979797] flex relative`} >
-                <div className='basis-4/5 pr-52 py-8'>
+            <div className={` flex-col lg:flex-row ${index === 0 && 'border-t'} border-b group border-[#979797] flex relative`} >
+                <div className='lg:basis-4/5 lg:pr-52 py-8'>
                     <button className=' rounded-3xl px-4 dark:bg-[#232325] bg-[#ECECEC]'>
                     <p className=' text-[#225FA9] font-syne ' >{item.blog}</p>
                     </button>
@@ -20,8 +20,7 @@ const BlogsAndVlogsCard = () => {
                       </div>
                </div>
                <div className=' absolute  transition-all duration-500 w-80 right-0 -top-[12.5%]'>
-                    <img src={item.blogimage} alt="BlogCover" className='opacity-0 group-hover:opacity-100 transition-all duration-500' />               
-                    {/* <img src={item.imagearr} alt="" className='absolute item' /> */}
+                    <img src={item.blogimage} alt="BlogCover" className='opacity-0 group-hover:opacity-100 transition-all duration-500 invisible lg:visible  '/>               
                </div>                
             </div>
         ))}

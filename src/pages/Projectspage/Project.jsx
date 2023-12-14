@@ -14,7 +14,7 @@ const Project = () => {
     return (
       <section className="bg-lightbg dark:bg-blackbg dark:bg-repeat" id='Products'>
         <div className='lg:px-48 px-5 py-14 flex flex-col lg:flex-row '>
-            <h1 className='basis-1/2 font-blackerdisplay font-normal lg:text-6xl text-4xl dark:text-white lg:pb-0 pb-5'>
+            <h1 className='basis-1/2 font-blackerdisplay font-normal lg:text-6xl text-5xl dark:text-white lg:pb-0 pb-5'>
             Our Project
             </h1>
             <p className='basis-2/3 font-prata font-normal text-xl dark:text-white lg:text-right'>
