@@ -11,7 +11,7 @@ import 'swiper/css/scrollbar';
 
 const Service = () => {
   return (
-    <section className='lg:px-48 px-5 h-auto bg-servicebglight dark:bg-servicebgdark  bg-cover bg-center'>
+    <section className='lg:px-48 px-5 h-auto bg-servicebglight dark:bg-servicebgdark  bg-cover bg-center' id='services'>
        <div className='font-blackerdisplay text-black dark:text-white font-normal lg:text-6xl text-5xl pt-16'>
             <h1>
             Services We Offer

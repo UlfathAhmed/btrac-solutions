@@ -4,7 +4,7 @@ import arrow from '../../assets/images/arrow.png'
 
 const About = () => {
   return (
-    <section className=' dark:bg-[#181818] bg-[#F4F4F4] pt-10'>
+    <section className=' dark:bg-[#181818] bg-[#F4F4F4] pt-10' id='about'>
       <div className='lg:px-48 px-5'>
         <div className=' flex flex-col lg:flex-row justify-between rounded-xl bg-[#F9F9F9] dark:bg-[#090909]'>
           <div className='py-20 flex-1'>

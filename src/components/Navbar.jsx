@@ -26,7 +26,7 @@ const Navbar = () => {
             <div className="flex bg-black bg-opacity-90 border-2 rounded-tl-3xl rounded-br-3xl border-white py-5 px-6 ">
             <ul className='flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 md:ml-auto' >
                 <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
-                    <a href="#about">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne' onClick={()=> setMenuOpen(false)}>
                     <a href="#about">About</a>
@@ -35,10 +35,10 @@ const Navbar = () => {
                     <a href="#services">Services</a>
                 </li>
                 <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#products">Products</a>
                 </li>
                 <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
-                    <a href="#products">Products</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
                     <a href="#client">Client</a>
@@ -71,9 +71,9 @@ const Navbar = () => {
             />
             </div>
             <div className="hidden md:flex">
-            <ul className='flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-4 md:ml-auto'>
+            <ul className='flex md:flex-row transition-all duration-500 flex-col md:items-center md:gap-[2vw] gap-4 md:ml-auto'>
                 <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
-                <a href="#about">Home</a>
+                <a href="#home">Home</a>
                 </li>
                 <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#about">About</a>
@@ -82,10 +82,10 @@ const Navbar = () => {
                 <a href="#services">Services</a>
                 </li>
                 <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
-                <a href="#portfolio">Portfolio</a> 
+                <a href="#products">Products</a> 
                 </li>
                 <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
-                <a href="#products">Products</a>
+                <a href="#projects">Projects</a>
                 </li>
                 <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#client">Client</a>

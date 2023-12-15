@@ -1,4 +1,6 @@
-import blogimage from "../assets/images/blogfour.png"
+import blogimage1 from "../assets/images/blogfour.png"
+import blogimage2 from "../assets/images/blogone.jpg"
+import blogimage3 from "../assets/images/blogtwo.png"
 import rightarrow from "../assets/images/rightarrow.png"
 
 export const BlogsAndVlogsData =[
@@ -8,7 +10,7 @@ export const BlogsAndVlogsData =[
         headline:"leader asked the party men to bring people of the country with them to wage its one-point demand movement." ,
         date: "May 26, 2023",
         imagearr:rightarrow,
-        blogimage:blogimage
+        blogimage:blogimage1
        
     },
     {
@@ -17,7 +19,7 @@ export const BlogsAndVlogsData =[
         headline:"leader asked the party men to bring people of the country with them to wage its one-point demand movement." ,
         date: "May 26, 2023",
         imagearr:rightarrow,
-        blogimage:blogimage
+        blogimage:blogimage2
        
     },
     {
@@ -26,8 +28,8 @@ export const BlogsAndVlogsData =[
         headline:"leader asked the party men to bring people of the country with them to wage its one-point demand movement." ,
         date: "May 26, 2023",
         imagearr:rightarrow,
-        blogimage:blogimage
-       
+        blogimage:blogimage3
+        
     },
     
 ];

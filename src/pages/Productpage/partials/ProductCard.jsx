@@ -11,7 +11,7 @@ const ProductCard = ({ image, Projecttitle, ProjectButton, description  }) => {
           </div>
         </div>
       </div>
-      <button className="text-xl font-prata dark:text-white py-5 invisible group-hover:visible hover:text-blue-300">{ProjectButton}</button>
+      <button className="text-xl font-prata dark:text-white py-5 invisible group-hover:visible hover:text-[#225FA9] dark:hover:text-[#225FA9]">{ProjectButton}</button>
       
         
     </div>  

@@ -7,7 +7,7 @@ const home = () => {
 const text = "know more about BTSL. know more about BTSL"
 
   return (
-    <section className='lg:px-48 pl-5 h-screen bg-whitehb dark:bg-darkhb  bg-cover bg-center flex'>
+    <section className='lg:px-48 pl-5 h-screen bg-whitehb dark:bg-darkhb  bg-cover bg-center flex ' id='home'>
       <div className='pt-72 flex text-left dark:text-white  '>
         <div className='font-blackertext' >
             <h1 className='lg:text-7xl text-4xl'> We Enrich Lives <br /> Through Better User </h1>

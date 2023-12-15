@@ -4,7 +4,7 @@ import BlogCard from './Partials/BlogCard'
 const Blog = () => {
   return (
     <section>
-        <div className='lg:px-48 px-5 text-center py-56 bg-blogpagelight dark:bg-blogpagedark  bg-cover bg-center '>
+        <div className='lg:px-48 px-5 text-center py-56 bg-blogpagelight dark:bg-blogpagedark  bg-cover bg-center'>
             <h1 className='text-7xl font-blackerdisplay dark:text-[#fff] text-[#000] '>
                 Blog
             </h1>

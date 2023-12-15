@@ -3,7 +3,7 @@ import SmlogoCard from './SmlogoCard'
 
 const Footer = () => {
   return (
-    <section className='px-48 pt-20 bg-footerbglight dark:bg-footerbgdark bg-cover bg-center'>
+    <section className='px-48 pt-20 bg-footerbglight dark:bg-footerbgdark bg-cover bg-center' id='contact'>
       <div>
               <p className='font-prata font-normal text-2xl dark:text-[#fff] text-[#000]'>
                 Ready to work with us?
