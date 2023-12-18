@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className="w-screen z-50 px-10 md:px-12 lg:px-48 py-5 relative flex justify-between items-center">
         <div
             className={`absolute md:hidden top-full left-0 py-1 px-5 w-screen ${
-            !menuOpen ? "opacity-0" : "opacity-100"
+            !menuOpen ? "opacity-0 hidden" : "opacity-100"
             } transition-all duration-500`}>
             <div className="flex bg-black bg-opacity-90 border-2 rounded-tl-3xl rounded-br-3xl border-white py-5 px-6 ">
             <ul className='flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 md:ml-auto' >

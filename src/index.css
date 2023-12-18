@@ -967,9 +967,6 @@ video {
 .text-right {
   text-align: right;
 }
-.text-start {
-  text-align: start;
-}
 .font-Inter {
   font-family: Inter;
 }
@@ -1385,10 +1382,6 @@ video {
 
   .lg\:justify-center {
     justify-content: center;
-  }
-
-  .lg\:justify-between {
-    justify-content: space-between;
   }
 
   .lg\:gap-0 {
