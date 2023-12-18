@@ -16,9 +16,9 @@ import { FreeMode, Pagination, Autoplay, Navigation } from 'swiper/modules';
 
 const InsideBtsl = () => {
   return (
-    <section className='pl-48 bg-[#F4F4F4] dark:bg-[#222] bg-cover bg-center py-28 '>
+    <section className='lg:pl-48 px-5 bg-[#F4F4F4] dark:bg-[#222] bg-cover bg-center py-28 '>
       <div>
-        <h1 className='pb-28 text-6xl font-blackerdisplay dark:text-[#fff] text-[#000]'>
+        <h1 className='pb-28 lg:text-6xl text-5xl font-blackerdisplay dark:text-[#fff] text-[#000]'>
           Inside BTSL
         </h1>
       </div>

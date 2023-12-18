@@ -11,6 +11,7 @@ import Awards from './pages/AwardPage/Awards'
 import Project from './pages/Projectspage/project'
 import Product from './pages/Productpage/Product'
 import BlogsAndVlogs from './pages/BlogsAndVlogsPage/BlogsAndVlogs'
+// import ScrollToTop from './components/ScrollToTop'
 
 
 
@@ -20,6 +21,7 @@ function App() {
   return (
 
     <>
+      {/* <ScrollToTop /> */}
       <Navbar/>
       <ToggleButton/>
       <Home/>
