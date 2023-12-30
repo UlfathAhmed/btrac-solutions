@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import {HiOutlineArrowNarrowLeft, HiOutlineArrowNarrowRight} from 'react-icons/hi' 
 
 import React, { useRef } from 'react';
 import ProductData from '../../DummyData/ProductData';
@@ -46,7 +47,10 @@ const Product = () => {
           pagination={{
             clickable: true,
           }}
-          navigation={true}
+          navigation={{
+             nextEl: ".button-next-slide",
+             prevEl: ".button-prev-slide",
+          }}
           modules={[Navigation, Autoplay]} 
           onInit={(swiper) => (swiperRef.current = swiper)}
           className="mySwiper"
@@ -63,6 +67,12 @@ const Product = () => {
             </SwiperSlide>
           ))}
           
+            <div className='button-next-slide'>
+                <HiOutlineArrowNarrowLeft />  
+            </div>
+            <div className='button-prev-slide'>
+                <HiOutlineArrowNarrowRight />  
+            </div>
           </Swiper>
           
           {/* <div className=' absolute border-2 rounded-lg border-[#ff7069] w-10 lg:right-10 lg:top-1/2 right-1/2 '   >

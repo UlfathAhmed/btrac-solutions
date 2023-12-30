@@ -6,9 +6,10 @@ export const BlogdetailData =[
     {
         id : 1,
         image: blog01,
+        authorimage: admin1,
         date: "07 March, 2020",
         headline: "Creative studio programm coming soon",
-        authorimage: admin1,
+        
         authorname: "by admin",
         totalblog: "Laboratories used for scientific research take many forms because of the differing requirements of specialists in the various fields of science and engineering. A physics Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
         

@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom'
 import Home from './pages/HomePage/Home'
 import Navbar from './components/Navbar'
 import About from './pages/AboutPage/About'
@@ -11,6 +12,7 @@ import Awards from './pages/AwardPage/Awards'
 import Project from './pages/Projectspage/project'
 import Product from './pages/Productpage/Product'
 import BlogsAndVlogs from './pages/BlogsAndVlogsPage/BlogsAndVlogs'
+import BlogDetail from './pages/BlogDetailPage/BlogDetail'
 // import ScrollToTop from './components/ScrollToTop'
 
 
@@ -23,6 +25,7 @@ function App() {
     <>
       {/* <ScrollToTop /> */}
       <Navbar/>
+      
       <ToggleButton/>
       <Home/>
       <About/>
@@ -33,6 +36,7 @@ function App() {
       <Industries/>
       <BlogsAndVlogs/>
       <Blog/>
+      <BlogDetail/>
       <InsideBtsl/>
       <Footer/>
     

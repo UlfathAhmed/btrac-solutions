@@ -6,7 +6,6 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
 
 
-
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     let theme = localStorage.getItem('theme');
@@ -60,7 +59,7 @@ const Navbar = () => {
             
             </a>
         </div>
-        <div className="items-center flex justify-end relative w-full lg:pr-5 pr-0">
+        <div className="items-center flex justify-end relative w-full lg:pr-5 pr-0 ">
         <div
             className="text-white flex md:hidden cursor-pointer"
             onClick={() => setMenuOpen((prevState) => !prevState)}>

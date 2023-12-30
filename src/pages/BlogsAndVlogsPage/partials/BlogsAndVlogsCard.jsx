@@ -19,7 +19,7 @@ const BlogsAndVlogsCard = () => {
                         <img src={item.imagearr} alt="" className='absolute item' />
                       </button>
                </div>
-               <div className=' absolute  transition-all duration-500 w-80 right-0 -top-[12.5%]'>
+               <div className=' absolute transition-all duration-500 w-80 right-0 -top-[12.5%]'>
                     <img src={item.blogimage} alt="BlogCover" className='opacity-0 group-hover:opacity-100 transition-all duration-500 invisible lg:visible  '/>               
                </div>                
             </div>

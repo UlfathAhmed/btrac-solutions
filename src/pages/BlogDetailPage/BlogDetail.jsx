@@ -1,51 +1,27 @@
 import React from 'react'
-import {Swiper, SwiperSlide} from 'swiper/react'
-import ServiceData from '../../../DummyData/ServiceData'
+import BlogDetailCard from './Partials/BlogDetailCard';
 
-
-import 'swiper/css'
-import 'swiper/css/pagination'
-import 'swiper/css/free-mode'
-
-import { FreeMode, Pagination } from 'swiper/modules'
-// import {RxArrowTopright} from 'react-icons/rx'
-
-const ServiceCard = () => {
+const BlogDetail = () => {
   return (
-   <div className='container ' >
-     <div className='grid lg:grid-cols-4'>
-         <Swiper
-                  breakpoints={{
-                  340: {
-                     slidePerView: 2,
-                     spaceBetween: 15,
-                  },
-                  700: {
-                     slidePerView: 3,
-                     spaceBetween: 15,
-                  }
-                  }}
-                  FreeMode={true}
-                  Pagination={{
-                     clickable: true,
-                  }}
-                  modules={[FreeMode, Pagination]}
-            >
-                  {ServiceData.map((item) => (
-                     <SwiperSlide key={item.id}>
-                        <div className=" relative border-2 border-black dark:border-[#414141] py-48 group hover:bg-[#225FA9] duration-500 " >
-                           <h1 className='font-blackerdisplay font-normal dark:text-white text-4xl rotate-90 text-center cursor-pointer group-hover:rotate-0 duration-300'>{item.title}</h1>
-                           <button>
-                              <img src={item.image} className='absolute bottom-5 left-32 rotate-0 group-hover:rotate-45 duration-300'/>
-                           </button>
-                        </div>
-                     </SwiperSlide>
-
-                  ))}
-         </Swiper>
-     </div>
-   </div>
+    <section>
+        <div className='lg:px-48 px-5 text-center py-56 bg-blogpagelight dark:bg-blogpagedark  bg-cover bg-center'>
+            <h1 className='text-7xl font-blackerdisplay dark:text-[#fff] text-[#000] '>
+                Blog
+            </h1>
+            <p className='text-2xl dark:text-[#fff] py-5 font-prata'>
+                <span className='text-[#225fa9]'>BTSL |</span> Blog
+            </p>
+        </div>
+        <div className='lg:px-48 px-5 lg:py-28 py-10 basis-1/2 dark:bg-[#181818] bg-[#fff]'>
+          <BlogDetailCard/>
+        </div>
+        
+          
+        
+        
+        
+    </section>
   )
 }
 
-export default ServiceCard
+export default BlogDetail;
