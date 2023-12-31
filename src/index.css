@@ -690,11 +690,11 @@ video {
 .gap-10 {
   gap: 2.5rem;
 }
-.gap-2 {
-  gap: 0.5rem;
-}
 .gap-20 {
   gap: 5rem;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .gap-4 {
   gap: 1rem;
@@ -704,9 +704,6 @@ video {
 }
 .gap-8 {
   gap: 2rem;
-}
-.gap-3 {
-  gap: 0.75rem;
 }
 .overflow-hidden {
   overflow: hidden;
@@ -1007,6 +1004,9 @@ video {
 .font-LondrinaOutline {
   font-family: Londrina Outline;
 }
+.font-Poppins {
+  font-family: Poppins;
+}
 .font-blackerdisplay {
   font-family: Blacker Display;
 }
@@ -1018,9 +1018,6 @@ video {
 }
 .font-syne {
   font-family: Syne;
-}
-.font-Poppins {
-  font-family: Poppins;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -1140,11 +1137,20 @@ video {
 .duration-100 {
   transition-duration: 100ms;
 }
+.duration-1000 {
+  transition-duration: 1000ms;
+}
 .duration-300 {
   transition-duration: 300ms;
 }
 .duration-500 {
   transition-duration: 500ms;
+}
+.duration-\[800ms\`\] {
+  transition-duration: 800ms`;
+}
+.duration-\[800ms\] {
+  transition-duration: 800ms;
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -14,18 +14,18 @@ const LeaveReply = () => {
             <div className='flex justify-between'>
                 <div>
                    <p className='text-[#606060] font-blackerdisplay text-xl font-normal py-5'>Name</p>
-                   <input className='px-44 py-3 dark:bg-[#252525] border dark:border-[#474747] bg-[#F7F7F7] border-[#DADADA]' type="Name" />
+                   <input className='px-44 py-3 dark:bg-[#252525] border dark:border-[#474747] bg-[#F7F7F7] border-[#DADADA] dark:text-white text-black' type="Name" />
                 </div>
                 <div>
                    <p className='text-[#606060] font-blackerdisplay text-xl font-normal py-5'>Email</p>
-                   <input className='px-44 py-3 dark:bg-[#252525] border dark:border-[#474747] bg-[#F7F7F7] border-[#DADADA]' type="mail" />
+                   <input className='px-44 py-3 dark:bg-[#252525] border dark:border-[#474747] bg-[#F7F7F7] border-[#DADADA] dark:text-white text-black' type="mail" />
                 </div>
             </div>
             <div className='py-5'>
                 <input type="checkbox" className='' id="checkbox"/>
                 <label className='dark:text-white font-blackerdisplay text-xl font-normal' for="check"> Save my name, email, and website in this browser for the next time I comment.</label>
                 <p className='text-[#606060] font-blackerdisplay text-xl font-normal py-5'>Comment</p>
-                <input className='px-[28.5rem] py-10 dark:bg-[#252525] border dark:border-[#474747] bg-[#F7F7F7] border-[#DADADA]' type="text" />
+                <input className='px-[28.5rem] py-10 dark:bg-[#252525] border dark:border-[#474747] bg-[#F7F7F7] border-[#DADADA] dark:text-white text-black' type="text" />
             </div>
             <button className='text-white text-xl font-normal font-blackerdisplay px-5 py-3 bg-[#225FA9] flex justify-center items-center hover:bg-blue-500  transition-all duration-500 '>Submit</button>
         </div>

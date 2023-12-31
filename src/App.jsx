@@ -25,7 +25,6 @@ function App() {
     <>
       {/* <ScrollToTop /> */}
       <Navbar/>
-      
       <ToggleButton/>
       <Home/>
       <About/>
