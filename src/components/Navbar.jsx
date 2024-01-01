@@ -2,16 +2,16 @@ import React, { useEffect } from 'react'
 import logowb from '../assets/images/btraclogowb.png'
 import logobb from '../assets/images/btraclogobb.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link, useNavigate } from "react-router-dom";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
 
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    let theme = localStorage.getItem('theme');
+    const theme = localStorage.getItem('theme');
     const [themeMode, setThemeMode] = useState();
     useEffect (() => {
-        // console.log('theme',theme);
         setThemeMode(theme)
     },[theme]) 
 
