@@ -2,9 +2,10 @@ import React, { useEffect } from 'react'
 import logowb from '../assets/images/btraclogowb.png'
 import logobb from '../assets/images/btraclogobb.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from 'react';
+import { menuItems } from '../router/Path';
 
 
 const Navbar = () => {
@@ -24,10 +25,17 @@ const Navbar = () => {
             } transition-all duration-500`}>
             <div className="flex bg-black bg-opacity-90 border-2 rounded-tl-3xl rounded-br-3xl border-white py-5 px-6 ">
             <ul className='flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 md:ml-auto' >
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
-                    <a href="#home">Home</a>
-                </li>
-                <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne' onClick={()=> setMenuOpen(false)}>
+                
+                {
+                    menuItems.map(item => (
+                        <Link to={item.path} key={item.path}>
+                            <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
+                                <h1>{item.name}</h1>
+                            </li>
+                        </Link>
+                    ))
+                }
+                {/* <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne' onClick={()=> setMenuOpen(false)}>
                     <a href="#about">About</a>
                 </li>
                 <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
@@ -47,7 +55,7 @@ const Navbar = () => {
                 </li >
                 <li className='hover:scale-110 duration-300 hover:text-[#225FA9] font-normal text-lg text-white font-syne ' onClick={()=> setMenuOpen(false)}>
                     <a href="#contact">Contact</a>
-                </li>
+                </li> */}
             </ul>
             </div>
             </div>
@@ -71,7 +79,16 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex">
             <ul className='flex md:flex-row transition-all duration-500 flex-col md:items-center md:gap-[2vw] gap-4 md:ml-auto'>
-                <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
+            {
+                    menuItems.map(item => (
+                        <Link to={item.path} key={item.path}>
+                            <li className='hover:scale-110 duration-300 hover:text-[#225FA9] text-black dark:text-white font-normal text-lg font-syne ' onClick={()=> setMenuOpen(false)}>
+                                <h1>{item.name}</h1>
+                            </li>
+                        </Link>
+                    ))
+                }
+                {/* <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#home">Home</a>
                 </li>
                 <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
@@ -94,7 +111,7 @@ const Navbar = () => {
                 </li>
                 <li className='hover:scale-110 duration-300 dark:hover:text-[#225FA9] font-normal text-lg font-syne dark:text-white  '>
                 <a href="#contact">Contact</a>
-                </li>
+                </li> */}
             </ul>
             </div>
             

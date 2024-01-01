@@ -1,5 +1,5 @@
 import React from 'react'
-import IndustriesCard from './partials/IndustriesCard'
+import IndustriesCard from './IndustriesCard'
 
 const Industries = () => {
   return ( 

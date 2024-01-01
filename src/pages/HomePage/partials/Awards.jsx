@@ -1,6 +1,6 @@
 import React from 'react'
-import AwardCard from './Partials/AwardCard'
-import AwardsData from '../../DummyData/AwardsData'
+import AwardCard from '../partials/AwardCard'
+import AwardsData from '../../../DummyData/AwardsData'
 
 import { Navigation, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';

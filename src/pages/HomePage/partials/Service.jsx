@@ -1,6 +1,6 @@
 import React from 'react'
-import ServiceCard from './partials/ServiceCard'
-import ServiceData from '../../DummyData/ServiceData'
+import ServiceCard from './ServiceCard'
+import ServiceData from '../../../DummyData/ServiceData'
 
 import { Navigation, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';

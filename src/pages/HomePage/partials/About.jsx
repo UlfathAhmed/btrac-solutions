@@ -1,6 +1,6 @@
 import React from 'react'
-import AchivementCount from './partials/AchivementCount';
-import arrow from '../../assets/images/arrow.png'
+import AchivementCount from './AchivementCount';
+import arrow from '../../../assets/images/arrow.png'
 
 const About = () => {
   return (

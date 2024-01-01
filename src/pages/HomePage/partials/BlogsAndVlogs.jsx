@@ -1,5 +1,5 @@
 import React from 'react'
-import BlogsAndVlogsCard from './partials/BlogsAndVlogsCard'
+import BlogsAndVlogsCard from './BlogsAndVlogsCard'
 
 const BlogsAndVlogs = () => {
   return (

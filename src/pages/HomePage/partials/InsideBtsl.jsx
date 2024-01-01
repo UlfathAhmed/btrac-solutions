@@ -1,9 +1,9 @@
 import React from 'react'
 
-import img1 from '../../assets/images/blogone.jpg'
-import img2 from '../../assets/images/blogtwo.png'
-import img3 from '../../assets/images/blogthree.png'
-import img4 from '../../assets/images/blogfour.png'
+import img1 from '../../../assets/images/blogone.jpg'
+import img2 from '../../../assets/images/blogtwo.png'
+import img3 from '../../../assets/images/blogthree.png'
+import img4 from '../../../assets/images/blogfour.png'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
