@@ -63,7 +63,7 @@ const ToggleButton = () => {
    });
 
   return (
-    <div className='fixed top-1/2 right-10  duration-100 bg-gray-100 dark:bg-slate-700 rounded-3xl rotate-90 invisible lg:visible'>
+    <div className='fixed top-1/2 right-10 z-50  duration-100 bg-gray-100 dark:bg-slate-700 rounded-3xl rotate-90 invisible lg:visible'>
         {options?.map((opt)=>(
             <button 
               key={opt.text} 
