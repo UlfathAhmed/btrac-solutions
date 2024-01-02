@@ -539,6 +539,9 @@ video {
 .-top-\[12\.5\%\] {
   top: -12.5%;
 }
+.bottom-20 {
+  bottom: 5rem;
+}
 .bottom-5 {
   bottom: 1.25rem;
 }
@@ -925,6 +928,10 @@ video {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
 }
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -940,6 +947,10 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
@@ -961,6 +972,9 @@ video {
 }
 .pr-0 {
   padding-right: 0px;
+}
+.pr-10 {
+  padding-right: 2.5rem;
 }
 .pr-16 {
   padding-right: 4rem;
@@ -988,6 +1002,9 @@ video {
 }
 .pt-72 {
   padding-top: 18rem;
+}
+.pr-20 {
+  padding-right: 5rem;
 }
 .text-left {
   text-align: left;
