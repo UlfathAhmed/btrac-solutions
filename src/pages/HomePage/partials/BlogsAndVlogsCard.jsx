@@ -15,7 +15,7 @@ const BlogsAndVlogsCard = () => {
                     <p className='font-syne font-normal text-2xl dark:text-white'>{item.date}</p>
                </div>  
                <div className='basis-1/5 flex lg:justify-center lg:items-center z-10 pb-10 lg:pb-0'>
-                     <button className='w-1/4 rounded-full aspect-square border border-white flex justify-center items-center group-hover:bg-[#225FA9] group-hover:border-[#232325] transition-all duration-500'>         
+                     <button className='w-1/4 rounded-full aspect-square border border-black dark:border-white flex justify-center items-center group-hover:bg-[#225FA9] group-hover:border-[#232325] transition-all duration-500'>         
                         <img src={item.imagearr} alt="" className='absolute item' />
                       </button>
                </div>

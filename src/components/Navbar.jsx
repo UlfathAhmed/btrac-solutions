@@ -10,11 +10,14 @@ import { menuItems } from '../router/Path';
 
 const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
-    const theme = localStorage.getItem('theme');
+    
     const [themeMode, setThemeMode] = useState();
     useEffect (() => {
-        setThemeMode(theme)
-    },[theme]) 
+        // const theme = localStorage.getItem('theme');
+        setThemeMode(localStorage.getItem('theme'))
+    },[localStorage.getItem('theme')]) ;
+
+console.log(themeMode)
 
     return (
     <nav className="fixed z-50 backdrop-blur-sm">
@@ -62,7 +65,7 @@ const Navbar = () => {
         <div>
             {themeMode == 'light' }
             <a href="#">
-            <img src={logowb} alt="logo" width={120} />
+            <img src={themeMode === "dark" ? logobb : logowb} alt="logo" width={120} />
             
             
             </a>
